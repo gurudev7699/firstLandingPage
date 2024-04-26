@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     min-height: 100vh;
+    display: flex;
 }
 .heroMain, .footer {
 background-color: #1F2937;
@@ -21,7 +22,9 @@ color:#E5E7EB;
 
 .headerLogo {
     font-size: 24px;
-    color:#F9FAF8
+    color:#F9FAF8;
+    display:flex;
+    font-weight: 800; 
 }
 
 .button, .callToAction {
@@ -45,3 +48,31 @@ color:#E5E7EB;
     color: #1F2937;
 
 }
+
+.heroMain {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+
+
+.header, .right {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    padding-top: 12px;
+}
+ ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+ }
+ a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+
+  }
