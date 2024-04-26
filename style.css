@@ -1,0 +1,47 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+.heroMain, .footer {
+background-color: #1F2937;
+}
+.mainText {
+    font-size: 48px;
+    font-weight: 800; 
+    color: #F9FAF8;
+}
+.subtext, .headerRightLinks {
+font-size: 18px;
+color:#E5E7EB;
+}
+.logoImage {
+    width: 100px;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color:#F9FAF8
+}
+
+.button, .callToAction {
+    background-color: #3882F6;
+}
+
+.midTitle {
+    font-size: 36px;
+    font-weight: 800; 
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-weight: 300; /* Light weight */
+    font-style: italic; /* Italic style */
+    color: #1F2937;
+
+}
