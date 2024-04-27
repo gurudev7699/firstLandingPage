@@ -7,7 +7,7 @@
 .heroMain, .footer {
 background-color: #1F2937;
 }
-.mainText {
+h1 {
     font-size: 48px;
     font-weight: 800; 
     color: #F9FAF8;
@@ -15,9 +15,27 @@ background-color: #1F2937;
 .subtext, .headerRightLinks {
 font-size: 18px;
 color:#E5E7EB;
+
 }
+h1, .subtext {
+    margin-bottom: 10px; /* Add space between text elements */
+    max-width: 350px;
+}
+
+
+
 .logoImage {
-    width: 100px;
+  justify-content: center;
+  align-items: center;
+    display: flex;
+    flex:1;
+}
+
+.logoImage img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    
 }
 
 .headerLogo {
@@ -28,7 +46,8 @@ color:#E5E7EB;
 }
 
 .button, .callToAction {
-    background-color: #3882F6;
+    background: #3882F6;
+    color: white;
 }
 
 .midTitle {
@@ -76,3 +95,24 @@ color:#E5E7EB;
     color: #E5E7EB;
 
   }
+
+.signup, .ctaSignup {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.leftContainer {
+    flex: 1;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.signup{
+    padding: 20px 30px 20px 30px;
+    border-radius: 5px;
+    
+}
