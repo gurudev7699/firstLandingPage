@@ -58,6 +58,13 @@ h1, .subtext {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center; */
+    padding:300px;
 }
 
 .quoteText {
@@ -124,6 +131,7 @@ h1, .subtext {
     flex-direction: column;
     align-items: center;
     padding: 2em;
+    justify-content: center;
 }
 h2{
     font-size: 36px;
@@ -133,21 +141,34 @@ h2{
  
 .info {
     max-width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 .info img {
     width: 200px;
     height: 200px;
     border-radius: 5px;
     border-color: #3882F6;
+    display: flex;
+    flex: 1;
 }
 .cards {
     display: flex;
+    flex: 1;
     gap: 50px;
     margin: 60px;
     padding-top: 20px;
     /* padding-bottom: 80px; */
+    flex-wrap: wrap;
 }
  
 .text{
     padding-top: 10px;
+}
+
+.quoteAuthor{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    font-weight: bold;
 }
